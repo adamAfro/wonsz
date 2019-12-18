@@ -1,0 +1,52 @@
+#Plansza {
+	
+	position: relative;
+	border: solid 0.25em;
+}
+
+	#Plansza > .element {
+
+		position: absolute;
+
+		width: 1em;
+		height: 1em;
+
+		background-color: yellow;
+	}
+
+	#Plansza > .head {
+
+		background: url("../img/head.svg");
+		background-size: contain;
+
+		z-index: 2;
+	}
+
+
+	#Plansza > .head.dead {
+
+		background: url("../img/head-dead.svg");
+		background-size: contain;
+
+		z-index: 2;
+	}
+
+	#Plansza > .head.left {}
+
+	#Plansza > .head.right {}
+
+	#Plansza > .head.top {}
+
+	#Plansza > .head.bottom {}
+
+	#Plansza > .segment {
+
+		background: green;
+	}
+
+
+#Wonsz {
+  margin: 1em 0;
+  display: flex;
+  justify-content: center;
+}

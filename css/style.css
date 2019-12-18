@@ -1,0 +1,50 @@
+
+@font-face {
+  font-family: "Snake Chan";
+  src: url("../font/Snake Chan.ttf") format("truetype");
+}
+
+button {
+	
+	border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    color: inherit;
+    font: inherit;
+
+    line-height: normal;
+	
+	cursor: pointer;
+	/*! font-family: "Snake Chan"; */
+}
+
+#doc {
+	margin: 0;
+}
+
+#heading {
+	
+	background-color: #00a800;
+	color: #000;
+	
+	font-family: "Snake Chan";
+	
+	margin: 0;
+	
+	padding: 1em;
+	font-size: 3em;
+	text-align: center;
+}
+
+#Menu {
+	background: black;
+	color: wheat;
+	justify-content: center;
+	display: flex;
+	padding: 1em;
+}
